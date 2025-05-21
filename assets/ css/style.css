@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.content{
+    animation: content 2s infinite ;
+}
+@keyframes content{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(-60px);
+    }
+}
