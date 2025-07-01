@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon portfolio</title>
-    <link rel="stylesheet" href="assets/font/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/font/fontawesome-free-6.7.1-web/css/all.min.css">
-    <link rel="stylesheet" href="assets/ css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-5.3.3-dist/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
         <header class="container">
           <div class="row">
-            <nav class=" nav col-md-12 col-12 ">
+            <nav class=" nav offset-md-1 col-md-10 col-12 nav">
               <div class="logo">
                 Frydev
               </div>
@@ -97,7 +97,7 @@
                 <form>
                   <h3>Mes Coordonnées <i class="fa-solid fa-user-tie"></i></h3>
                 <ul>
-                  <li><a href="www.https://wa.me/+22953540323" target="blank"><i class="fa-solid fa-phone-volume"></i> +2290153540323</a></li>
+                  <li><a href="#"><i class="fa-solid fa-phone-volume"></i> +2290153540323</a></li>
                   <li><a href="mailto:behanzinfredy@gmail.com"><i class="fa-solid fa-envelope"></i> behanzinfredy@gmail.com</a></li>
                   <li><a href="#"><i class="fa-solid fa-location-dot"></i> cotonou, 8e arrondissement, gbedjromede</a></li>
                 </ul>
