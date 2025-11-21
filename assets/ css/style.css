@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Redressed&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* For all */
 *{
     margin:0;
     padding:0;
@@ -10,6 +11,7 @@
     --color-text: black;
     --haeder-color:#eee;
 }
+
 body{
    font-family: 'montserrat', sans-serif;
    font-size: 1rem;
@@ -17,13 +19,37 @@ body{
    color:white;
    width: 100% !important;
 }
+
 li{
     list-style-type: none;
 }
+
 li a{
     text-decoration: none;
     color:white;
 }
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+p{
+    font-size: calc(1.5rem);
+}
+
+/* =======================Menu================= */
 header{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -35,24 +61,29 @@ header{
     width: 100%;
 }
 
-@media screen and (min-width:720px) {
+/*@media screen and (min-width:720px) {
     header .nav{
         margin-left: 20px;
         justify-content: space-around;
         
     }
-}
+}*/
 
-.menu{
-    display: flex;
-    justify-content: space-around;
-}
 .logo{
     font-size: 30px;
     color:darkred;
     text-transform: capitalize;
-    font-weight: bold;
-   
+    font-weight: bold;  
+}
+
+.menu{
+    display: flex;
+    position: relative;
+}
+
+header nav ul{
+    display: flex;
+    position: relative;
 }
 
 header nav ul li  a{
@@ -65,17 +96,18 @@ header nav ul li a:hover{
 .active{
     color: darkred !important;
 }
+
+/*==================fisrt section===========*/
+
 .section1-css{
     margin-top: 200px;
-    background: rgba(50, 50, 150, 0.23);
     padding:30px;
     width: 100%;
 }
-.section1-css  img{
-    height: 520px;
-}
+
+
 .except{
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: 'open sans', sans-serif;
     padding-top: 170px;
@@ -99,9 +131,8 @@ header nav ul li a:hover{
 }
 .text{
     padding: 20px;
-    font-size: 30px;
-    font-weight: 400;
     font-family: 'open sans', serif;
+    text-align: justify;
 }
 @media screen and (max-width:769px){
     .except{
@@ -137,7 +168,7 @@ header nav ul li a:hover{
         border-radius: 40px;  
     }
     .except {
-        font-size: 25px;
+        font-size: 1.5rem;
         font-weight: 400;
         font-family: 'open sans', sans-serif;
         padding-top: 70px;
@@ -165,22 +196,29 @@ header nav ul li a:hover{
     }
     .except{
         padding-top: 10px;
-        font-size: 25px;
+        font-size: 1.5rem;
     }
 }
 
-.section2-css .heading{
+/* =======section 3 css=====*/
+
+.section3-css .heading{
     padding-bottom: 40px;
 }
-.section2-css h3{
+.section3-css h3{
     border-left: 1px darkred solid;
     padding-left: 15px;
 }
-.section3-css{
+
+.box {
+    padding:30px;
+}
+/* =======section 4 css=====*/
+.section4-css{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.section3-css .content{
+.section4-css .content{
     font-size: 50px;
     color: darkslategrey;
     padding-bottom: 50px;  
@@ -203,7 +241,7 @@ header nav ul li a:hover{
     padding-top: 100px;
 }
 
-.section3-css form input{
+.section4-css form input{
     background-color: transparent !important;
     border-right: none !important;
     border-bottom-color: beige !important;
@@ -214,10 +252,10 @@ header nav ul li a:hover{
     border-left: none !important;
     
 }
-.section3-css form input:hover{
+.section4-css form input:hover{
     border:none !important;
 }
-.section3-css form textarea{
+.section4-css form textarea{
     background-color: transparent !important;
     margin-top:5px;
     color:white;
