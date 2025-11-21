@@ -29,21 +29,6 @@ li a{
     color:white;
 }
 
-h1{
-
-}
-
-h2{
-
-}
-
-h3{
-
-}
-
-h4{
-
-}
 
 p{
     font-size: calc(1.5rem);
@@ -100,7 +85,6 @@ header nav ul li a:hover{
 
 
 .except{
-    font-size: 1.5rem;
     font-weight: 400;
     font-family: 'open sans', sans-serif;
     padding-top: 170px;
@@ -206,6 +190,8 @@ header nav ul li a:hover{
 .box {
     padding:30px;
 }
+
+
 /* =======section 4 css=====*/
 .section4-css{
     padding-top: 50px;
