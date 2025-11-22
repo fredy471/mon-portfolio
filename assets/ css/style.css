@@ -31,7 +31,7 @@ li a {
 
 
 p {
-    font-size: calc(1.5rem);
+    font-size:1.5rem;
 }
 
 /* =======================Menu================= */
@@ -81,7 +81,6 @@ header nav ul li a:hover {
 
 .section1-css {
     margin-top: 200px;
-    padding: 30px;
     width: 100%;
 }
 
@@ -108,7 +107,7 @@ header nav ul li a:hover {
 }
 
 .except span {
-    font-size: 30px;
+    font-size: 1.5rem;
     color: darkred;
     font-weight: bold;
 }
@@ -116,7 +115,6 @@ header nav ul li a:hover {
 .text {
     padding: 20px;
     font-family: 'open sans', serif;
-    text-align: justify;
 }
 
 @media screen and (max-width:769px) {
@@ -166,7 +164,7 @@ header nav ul li a:hover {
 @media screen and (min-width:910px) and (max-width:912px) {
 
     header nav ul li a {
-        font-size: 30px !important;
+        font-size: 1rem !important;
     }
 
     .section1-css img {
@@ -175,7 +173,7 @@ header nav ul li a:hover {
 
     .except {
         padding-top: 10px;
-        font-size: 39px;
+        font-size: 1.5rem;
     }
 }
 
@@ -193,6 +191,10 @@ header nav ul li a:hover {
 
 /* =======section 3 css=====*/
 
+.section3-css {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .section3-css .heading {
     padding-bottom: 40px;
 }
@@ -214,7 +216,7 @@ header nav ul li a:hover {
 }
 
 .section4-css .content {
-    font-size: 50px;
+    font-size: 3rem;
     color: darkslategrey;
     padding-bottom: 50px;
     animation: content infinite 2s;
