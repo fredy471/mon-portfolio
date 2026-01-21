@@ -3,7 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
-.content{
+/*.content{
     animation: content 2s infinite ;
 }
 @keyframes content{
@@ -13,4 +13,4 @@
     100%{
         transform:translateX(-60px);
     }
-}
+}*/

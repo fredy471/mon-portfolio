@@ -28,10 +28,17 @@ header .nav {
     padding-top: 30px;
     padding-bottom: 20px;
     position:fixed;
+    width:fit-content;
     justify-content: space-around;
     display: flex; 
     z-index: 100;
     background:rgba(50, 50, 150, 0.23);
+    top:0;
+}
+@media screen and (min-width:720px){
+    header .nav{
+        margin-left: 0;
+    }
 }
 
 .menu{
@@ -170,10 +177,15 @@ header nav ul li a:hover{
     0%{
         transform:translateX(0);
     }
+    50%{
+        
+        color:red;
+    }
     100%{
-        transform:translateX(-60px);
+        transform:translateX(70px);
     }
 }
+
 .together{
     padding-top: 100px;
 }
